@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+.roll-button {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: rgb(167, 209, 41);
+  color: black;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+}
+.roll-button:hover {
+  background-color: white;
+  color: rgb(167, 209, 41);
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 5px 0 white;
+  font-size: 8rem;
+  color: rgb(167, 209, 41);
+  animation: jackInTheBox;
+  animation-duration: 1s;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+.winner {
+  color: lime;
+}
+
+.img1 {
+  width: 80%;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+
+.img2 {
+  width: 80%;
+  border-radius: 30px;
+  border: 10px solid black;
+}
+
+footer {
+  margin-top: 5%;
+  color: rgb(167, 209, 41);
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* for asmall devices */
+@media (max-width: 750px) {
+  h1 {
+    margin: 30px;
+    font-family: "Press Start 2P", cursive;
+    text-shadow: 5px 0 white;
+    font-size: 3rem;
+    color: rgb(167, 209, 41);
+    animation: jackInTheBox;
+    animation-duration: 1s;
+  }
+  .roll-button {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: rgb(167, 209, 41);
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Press Start 2P", cursive;
+  }
+}
